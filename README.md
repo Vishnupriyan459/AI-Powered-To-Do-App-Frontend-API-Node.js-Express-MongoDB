@@ -6,8 +6,8 @@ Users can create accounts, login, add tasks, view progress in a Kanban-style lay
 
 # 🚀 Live Preview (after deployment)
 
-Frontend (Vercel): *add link here*  
-
+Frontend (Vercel): *https://ai-powered-to-do-app-frontend-6zqxw1hwo.vercel.app/*  
+backend: *https://github.com/Vishnupriyan459/AI-Powered-To-Do-App-Backend-API-Node.js-Express-MongoDB-.git*
 
 ---
 

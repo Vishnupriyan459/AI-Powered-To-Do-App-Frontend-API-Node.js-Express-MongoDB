@@ -1,16 +1,50 @@
-# React + Vite
+# 🧠 Todo AI – Smart Task Manager (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **Frontend** of the Todo-AI smart task management application built using **React (Vite)** and **TailwindCSS**, featuring JWT auth and an AI-powered task suggestion flow.
 
-Currently, two official plugins are available:
+Users can create accounts, login, add tasks, view progress in a Kanban-style layout, complete or delete tasks, and leverage AI-suggested subtasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🚀 Live Preview (after deployment)
 
-## React Compiler
+Frontend (Vercel): *add link here*  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|-----------|--------|
+| **React.js (Vite)** | UI & SPA Routing |
+| **TailwindCSS** | Styling |
+| **Fetch API** | Communication with backend REST APIs |
+| **LocalStorage Auth** | Token-based session handling |
+| **React Router DOM** | Routing & Protected Routes |
+
+## Folder Structure:
+# frontend/ \
+ ├── src/  \
+ │   ├── Pages/  \
+ │   │   ├── Home.jsx  \
+ │   │   ├── Dashboard.jsx  \
+ │   │   ├── Login.jsx  \
+ │   │   ├── Signup.jsx  \
+ │   ├── Components/  \
+ │   │   ├── Navbar.jsx  \
+ │   │   ├── Column.jsx  \
+ │   │   ├── TaskCard.jsx  \
+ │   │   ├── Modal.jsx  \
+ ├── public/  \
+ ├── vite.config.js  \
+ ├── package.json  \
+ └── .env
+
+
+## App Features:
+- Login & Signup (LocalStorage token)
+- Kanban Dashboard (To-Start, In-Progress, Completed)
+- AI-based Subtask Suggestions
+- Complete/Delete tasks
+- Filters (completed, subtasks, uncompleted)
+
+
